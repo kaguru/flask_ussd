@@ -32,9 +32,9 @@ def ussd_handler(input_value):
     flask_ussd Inputs Logic Handler
     :return:
     '''
-    end_text = f'\n00: Menu\
+    end_text = '\n00: Menu\
                 '
-    list_events = f'\n1. Climbing Mt. Kenya\
+    list_events = '\n1. Climbing Mt. Kenya\
                     \n2. Serengeti Nat. Park\
                     \n3. Jinja Falls\
                     \n4. Aberdares\
