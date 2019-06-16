@@ -35,9 +35,9 @@ def ussd_handler(input_value):
     end_text = '\n00: Menu\
                 '
     list_events = '\n1. Climbing Mt. Kenya\
-                    \n2. Serengeti Nat. Park\
-                    \n3. Jinja Falls\
-                    \n4. Aberdares\
+                   \n2. Serengeti Nat. Park\
+                   \n3. Jinja Falls\
+                   \n4. Aberdares\
                    '
 
     if input_value == '' or input_value[-3:] == '*00' or input_value is None:
