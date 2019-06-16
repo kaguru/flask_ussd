@@ -76,3 +76,6 @@ def ussd_handler(input_value):
                    '
     return view_text
 
+
+if __name__ == "__main__":
+    app.run(debug=True)
